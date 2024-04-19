@@ -1,0 +1,211 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  font-weight: bold;
+  font-size: 25px;
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  font-size: 15px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.main {
+  text-align: center;
+}
+
+.banner {
+  height: 350px;
+  width: 100%;
+  background-image: url("img/banner.png");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Staatliches', cursive;
+  line-height : 350px;
+  font-size: 40px;
+  text-align: center;
+  color: #F1C164;
+  text-shadow: 5px 5px #16345A, 8px 8px #284D8E, 11px 11px #4D8CBF, 14px 14px #5FA9D9;
+  margin: 0;
+}
+
+.man {
+  margin: auto;
+  display: block;
+  padding-top: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.box {
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 30px;
+  padding: 50px 15px;
+  background-color: #ced7ef;
+  color: gray;
+  vertical-align: middle;
+  box-shadow: 5px 5px 10px;
+}
+
+.btn {
+  width: 50%;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 50px 15px;
+  background-color: #ced7ef;
+  color: gray;
+  vertical-align: middle;
+  box-shadow: 5px 5px 10px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button .btnimg {
+  margin-bottom: 5px;
+}
+
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Gowun Dodum", sans-serif;
+  font-style: normal;
+}
+
+.subtitle {
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btnimg {
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  background-color: #b9eee0;
+  border-radius: 5px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px 23px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #2b665e;
+}
+
+.btnimg:hover {
+  background-color: #a5cfcf;
+}
+
+.btnimg:active {
+  position: relative;
+  top: 1px;
+}
+
+
+.btnimg {
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.input-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-form input[type="text"],
+.input-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.input-form input[type="submit"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #87ceeb;
+  /* 파스텔 블루 */
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-form input[type="submit"]:hover {
+  background-color: #6495ed;
+  /* 더 진한 파스텔 블루 */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  animation: gradientBackground 5s infinite;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-color: #FF5733;
+  }
+
+  /* 시작 색상 */
+  50% {
+    background-color: #FFC300;
+  }
+
+  /* 중간 색상 */
+  100% {
+    background-color: #C70039;
+  }
+
+  /* 끝 색상 */
+}
