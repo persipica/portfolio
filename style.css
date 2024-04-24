@@ -174,14 +174,14 @@ html {
   border-radius: 5px;
   box-sizing: border-box;
   background-color: #87ceeb;
-  /* 파스텔 블루 */
+  
   color: #fff;
   cursor: pointer;
 }
 
 .input-form input[type="submit"]:hover {
   background-color: #6495ed;
-  /* 더 진한 파스텔 블루 */
+
 }
 
 footer {
@@ -197,15 +197,14 @@ footer {
     background-color: #FF5733;
   }
 
-  /* 시작 색상 */
+
   50% {
     background-color: #FFC300;
   }
 
-  /* 중간 색상 */
   100% {
     background-color: #C70039;
   }
 
-  /* 끝 색상 */
+
 }
